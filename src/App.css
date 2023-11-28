@@ -1,0 +1,166 @@
+/*overall style formatting */
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family:'Inter';
+  color: #2B283A;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+
+body {
+  background:#0B2434;
+  max-height:100vh;
+}
+
+.main-content{
+  height:70vh;
+  width:40vw;
+  background:#F5F5F5;
+  border-radius:2%;
+  margin:auto;
+  margin-top:15vh;
+}
+
+
+/*Game title formatting*/
+
+
+.game-title{
+  font-family: Karla;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.768px;
+  padding:2rem;
+
+}
+
+.game-instructions {
+  color: #4A4E74;
+  font-family: Inter;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.393px;
+  padding:1rem;
+}
+
+
+
+
+/*
+Dice Related Formatting
+
+*/
+
+.dice-container{
+  width: 85%;
+  height: 30%;
+  display:flex;
+  flex-wrap: wrap;
+  margin:auto;
+}
+
+.die {
+  height:3vw;
+  width:3vw;
+  margin:5%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25rem;
+  background: #FFF;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+  font-size: 2rem; 
+}
+
+.die-hold {
+  background:#59E391;
+}
+
+.roll-button {
+  padding:1rem 4rem;
+  background:#5035FF;
+  color:white;
+  text-align: center;
+  font-family: Karla;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin:3rem;
+  border-radius: 3%;
+  border:none;
+}
+
+.roll-button:active {
+  border:yellow 2px solid;
+}
+
+/*Score display*/
+.score-display {
+  display:flex;
+  width:80%;
+  justify-content: space-between;
+  margin:auto;
+  
+
+}
+
+/*record input modal*/
+
+.record-input {
+  width:30vw;
+  height:30vh;
+  position:fixed;
+  top:35%;
+  left:35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border: solid 2px grey;
+  background:#F5F5F5;;
+  z-index:2;
+
+
+}
+
+.record-input input{
+  height:4rem;
+  font-size:3rem;
+}
+
+.submit-button {
+  padding:1rem 4rem;
+  background:#5035FF;
+  color:white;
+  text-align: center;
+  font-family: Karla;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin:3rem;
+  border-radius: 3%;
+  border:none;
+}
+
+.submit-button:active {
+  border:yellow 2px solid;
+}
+
+
+.won-text {
+  font-size: 1.25rem;;
+}
