@@ -164,3 +164,10 @@ Dice Related Formatting
 .won-text {
   font-size: 1.25rem;;
 }
+
+@media(max-width:900px){
+  .main-content {
+    height:80vh;
+    width:80vw;
+  }
+}
