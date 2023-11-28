@@ -165,7 +165,7 @@ Dice Related Formatting
   font-size: 1.25rem;;
 }
 
-@media(max-width:900px){
+@media(orientation:portrait){
   .main-content {
     height:80vh;
     width:80vw;
